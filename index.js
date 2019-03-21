@@ -11,6 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  var cart = { itemName: 'name of the item', itemPrice: 'price of the item' }
+ return `${itemName} has been added to your cart.`
 }
 
 function viewCart() {
